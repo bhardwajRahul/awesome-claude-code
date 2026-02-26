@@ -468,7 +468,7 @@ jobs:
                   `A cooldown period is currently in effect for your account. ` +
                   `Submitting during an active cooldown extends the restriction.\n\n` +
                   `${waitTime}\n\n` +
-                  `Please review the [CONTRIBUTING guidelines](../blob/main/CONTRIBUTING.md) ` +
+                  `Please review the [CONTRIBUTING guidelines](https://github.com/hesreallyhim/awesome-claude-code/blob/main/docs/CONTRIBUTING.md) ` +
                   `and [pinned issues](https://github.com/${repo.owner}/${repo.repo}/issues) ` +
                   `before your next submission.`
                 );
@@ -491,7 +491,7 @@ jobs:
 
               await closeWithComment(
                 `This submission was not made through the required web form. ` +
-                `As noted in [CONTRIBUTING.md](../blob/main/CONTRIBUTING.md), ` +
+                `As noted in [CONTRIBUTING.md](https://github.com/hesreallyhim/awesome-claude-code/blob/main/docs/CONTRIBUTING.md), ` +
                 `recommendations must be submitted using the ` +
                 `[web form](https://github.com/${repo.owner}/${repo.repo}/issues/new?template=recommend-resource.yml).\n\n` +
                 `A cooldown of **${formatRemaining(updated.active_until)}** has been applied. ` +
